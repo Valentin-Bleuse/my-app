@@ -43,7 +43,7 @@ const UserList = ({ users, selectedUser, setSelectedUser, setUsers }) => {
     };
 
     return (
-        <div ref={listRef} className=" fixed top-50 left-12 ml-3 rounded-3xl  w-40  h-4/6  bg-white text-black flex flex-col justify-center items-center border-red-900 border-3 ">
+        <div ref={listRef} className=" fixed top-50 left-12 ml-3 rounded-3xl  w-40  h-4/6   bg-white text-black flex flex-col justify-center items-center border-red-900 border-3 ">
             <div className={` ${"cursor-pointer"} ${selectedUser ? "" : "selectedUser cursor-pointer bg-gray-950 text-red-500 rounded-full p-2 px-6"} `} onClick={() => setSelectedUser(null)} > Général</div>
             {
 
