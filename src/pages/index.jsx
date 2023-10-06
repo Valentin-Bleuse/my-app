@@ -202,7 +202,7 @@ const Home = () => {
                 setUsers={setUsers}
 
             />
-            <div className="w-2/5  h-[76vh]  overflow-y-auto" ref={viewRef}>
+            <div className="w-1/5  h-[76vh]  overflow-y-auto" ref={viewRef}>
 
                 {selectedUser ? selectedUser.messages.map((message, key) => {
                     return (
