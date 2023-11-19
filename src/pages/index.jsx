@@ -76,7 +76,7 @@ const Home = () => {
         switch (code) {
             case 100:
                 title = "Spam ta daronne";
-                content = "Continue de spamm et je viens te briser";
+                content = "Stop Spamming, I'm comin' for you!";
                 break;
 
             default:
