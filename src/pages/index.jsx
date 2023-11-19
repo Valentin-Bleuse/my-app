@@ -28,7 +28,7 @@ const Home = () => {
     };
 
     const onMessage = (message) => {
-        console.log("message reçu chef", message);
+        console.log("received chef!", message);
 
         setMessages((oldMessages) => [...oldMessages, message]);
 
@@ -76,7 +76,7 @@ const Home = () => {
         switch (code) {
             case 100:
                 title = "Spam ta daronne";
-                content = "Stop Spamming, I'm comin' for you!";
+                content = "Stop Spamming, I'm coming for you!";
                 break;
 
             default:
